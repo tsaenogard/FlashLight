@@ -1,0 +1,316 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AE7AE8191EB7685700930004 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7AE8181EB7685700930004 /* AppDelegate.swift */; };
+		AE7AE81B1EB7685700930004 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7AE81A1EB7685700930004 /* ViewController.swift */; };
+		AE7AE81E1EB7685700930004 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE7AE81C1EB7685700930004 /* Main.storyboard */; };
+		AE7AE8201EB7685700930004 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE7AE81F1EB7685700930004 /* Assets.xcassets */; };
+		AE7AE8231EB7685700930004 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE7AE8211EB7685700930004 /* LaunchScreen.storyboard */; };
+		AE7AE82C1EB7691D00930004 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE7AE82B1EB7691D00930004 /* AVFoundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AE7AE8151EB7685700930004 /* FlashLight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlashLight.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE7AE8181EB7685700930004 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AE7AE81A1EB7685700930004 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AE7AE81D1EB7685700930004 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AE7AE81F1EB7685700930004 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AE7AE8221EB7685700930004 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AE7AE8241EB7685700930004 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE7AE82B1EB7691D00930004 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AE7AE8121EB7685700930004 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE7AE82C1EB7691D00930004 /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AE7AE80C1EB7685700930004 = {
+			isa = PBXGroup;
+			children = (
+				AE7AE8171EB7685700930004 /* FlashLight */,
+				AE7AE8161EB7685700930004 /* Products */,
+				AE7AE82A1EB7691D00930004 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AE7AE8161EB7685700930004 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AE7AE8151EB7685700930004 /* FlashLight.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AE7AE8171EB7685700930004 /* FlashLight */ = {
+			isa = PBXGroup;
+			children = (
+				AE7AE8181EB7685700930004 /* AppDelegate.swift */,
+				AE7AE81A1EB7685700930004 /* ViewController.swift */,
+				AE7AE81C1EB7685700930004 /* Main.storyboard */,
+				AE7AE81F1EB7685700930004 /* Assets.xcassets */,
+				AE7AE8211EB7685700930004 /* LaunchScreen.storyboard */,
+				AE7AE8241EB7685700930004 /* Info.plist */,
+			);
+			path = FlashLight;
+			sourceTree = "<group>";
+		};
+		AE7AE82A1EB7691D00930004 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AE7AE82B1EB7691D00930004 /* AVFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AE7AE8141EB7685700930004 /* FlashLight */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE7AE8271EB7685700930004 /* Build configuration list for PBXNativeTarget "FlashLight" */;
+			buildPhases = (
+				AE7AE8111EB7685700930004 /* Sources */,
+				AE7AE8121EB7685700930004 /* Frameworks */,
+				AE7AE8131EB7685700930004 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlashLight;
+			productName = FlashLight;
+			productReference = AE7AE8151EB7685700930004 /* FlashLight.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AE7AE80D1EB7685700930004 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = wtfcompany;
+				TargetAttributes = {
+					AE7AE8141EB7685700930004 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = AE7AE8101EB7685700930004 /* Build configuration list for PBXProject "FlashLight" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AE7AE80C1EB7685700930004;
+			productRefGroup = AE7AE8161EB7685700930004 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AE7AE8141EB7685700930004 /* FlashLight */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AE7AE8131EB7685700930004 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE7AE8231EB7685700930004 /* LaunchScreen.storyboard in Resources */,
+				AE7AE8201EB7685700930004 /* Assets.xcassets in Resources */,
+				AE7AE81E1EB7685700930004 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AE7AE8111EB7685700930004 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE7AE81B1EB7685700930004 /* ViewController.swift in Sources */,
+				AE7AE8191EB7685700930004 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AE7AE81C1EB7685700930004 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE7AE81D1EB7685700930004 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AE7AE8211EB7685700930004 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE7AE8221EB7685700930004 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AE7AE8251EB7685700930004 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AE7AE8261EB7685700930004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AE7AE8281EB7685700930004 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FlashLight/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wtf.company.FlashLight;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		AE7AE8291EB7685700930004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FlashLight/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wtf.company.FlashLight;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AE7AE8101EB7685700930004 /* Build configuration list for PBXProject "FlashLight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE7AE8251EB7685700930004 /* Debug */,
+				AE7AE8261EB7685700930004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE7AE8271EB7685700930004 /* Build configuration list for PBXNativeTarget "FlashLight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE7AE8281EB7685700930004 /* Debug */,
+				AE7AE8291EB7685700930004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AE7AE80D1EB7685700930004 /* Project object */;
+}
